@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+   background-image: url(./nemo\ wallpaper.gif);
+    background-repeat:repeat ;
+background-size:contain;
+}
+h1{
+    text-align: center;
+    color:rgb(120, 120, 230);
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-decoration:underline;
+
+}
+h3{
+    color:rgb(121, 70, 241);
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-decoration:underline;
+font-weight:bold;
+margin-left: 15px;
+
+}
+h4{
+    text-align: right;
+    margin-right: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(67, 7, 134);
+   
+}
+.main{
+    width: 100%;
+}
+
+.container{
+    text-align:left;
+   margin-left: 50px;
+}
+.t1{
+    display: flex;
+    margin-top: 5%;
+    gap: 20px;
+}
+
+.t2{
+    display: flex;
+    margin-top: 5%;
+    gap: 20px;
+}
+.t3{
+    display: flex;
+    margin-top: 5%;
+    gap: 20px;
+}
+
+.pp,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo{
+   font-size:large;
+   margin-left: -10px;
+   cursor: pointer;
+   font-weight: bolder;
+   
+   text-decoration: underline;
+  
+
+}
+ .z1,.z2,.z3,.z4,.z5,.z6,.z7,.z8,.z9,.z10,.z11,.z12,.z13,.z14,.z15{
+    margin-top: 10px;
+ }
+
+.t1,.t2,.t3{
+    border: 4px solid purple;
+    width: 70vw;
+    height:15vh ;
+    border-radius: 25px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:425px) {
+    
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+ 
+    color:rgb(120, 120, 230);
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-decoration:underline;
+margin-left: -40px;
+
+}
+h2{
+    font-size: large;
+    margin-left: -10px !important;
+    margin-top: 20px;
+}
+h3{
+    color:rgb(121, 70, 241);
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-decoration:underline;
+font-weight:bold;
+margin-left: 15px;
+
+}
+
+.container{
+    text-align:left;
+   margin-left: 50px;
+}
+.t1{
+    display: block;
+    margin-top: 5%;
+    gap: 20px;
+}
+
+.t2{
+    display: block;
+    margin-top: 5%;
+    gap: 20px;
+}
+.t3{
+    display: block;
+    margin-top: 5%;
+    gap: 20px;
+}
+
+.pp,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo{
+   font-size:medium;
+   margin-left: -10px;
+   cursor: pointer;
+   font-weight: bolder;
+   
+   text-decoration: underline;
+  
+
+}
+ .z1,.z2,.z3,.z4,.z5,.z6,.z7,.z8,.z9,.z10,.z11,.z12,.z13,.z14,.z15{
+    margin-top: 5px;
+    margin-left: 25px;
+ }
+
+.t1,.t2,.t3{
+    border: 4px solid purple;
+    width: 85vw;
+    height:150vh ;
+    border-radius: 25px;
+  margin-left: -13px !important;}
+
+
+  
+   #a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l,#m,#n,#o{
+    margin-top: 2px;
+    
+   }
+   h4{
+    margin-top: 10px;
+    font-size: medium!important;
+
+    margin-left: 40px !important;
+   }
+  
+
+}
+
+
+
+
+
+@media only screen and (max-width:375px) {
+
+    body{
+        
+         background-repeat:no-repeat;
+     background-size:cover;}
+
+     h1{
+         text-align:center;
+         margin-left: -35px;
+         color:rgb(88, 88, 245);
+         font-size: 25px;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     text-decoration:underline;
+     
+     }
+     h3{
+         color:rgb(114, 54, 235);
+         font-size: 18px;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     text-decoration:underline;
+     font-weight:bold;
+     margin-left: 15px;
+     
+     }
+     h2{
+        
+        display: none;
+
+     }
+     
+     .container{
+         text-align:left;
+        margin-left: 30px;
+     }
+     .t1{
+         display:block;
+         margin-top:10%;
+         
+     }
+     
+     .t2{
+         display: block;
+         margin-top: 2%;
+       
+     }
+     .t3{
+         display: block;
+         margin-top: 2%;
+        
+     }
+     
+     .pp,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo{
+        font-size:medium;
+        margin-left: 10px;
+        cursor: pointer;
+        font-weight: bolder;
+        font-size: small;
+        margin-top: -5px;
+        
+        text-decoration: underline;
+       
+     
+     }
+      .z1,.z2,.z3,.z4,.z5,.z6,.z7,.z8,.z9,.z10,.z11,.z12,.z13,.z14,.z15{
+         margin-top: 5px;
+         
+      }
+     
+     .t1,.t2,.t3{
+         border: 4px solid purple;
+         width: 85vw;
+         height:160vh ;
+         border-radius: 25px;
+         align-items: center;
+         margin-left:-15px !important;
+     }
+    
+    }
+
+
+
+    @media only screen and  (max-width:320px) {
+
+        body{
+            
+             background-repeat: no-repeat;
+         background-size:cover;}
+    
+         h1{
+             text-align:center;
+             margin-left: -35px;
+             color:rgb(88, 88, 245);
+             font-size: 25px;
+             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         text-decoration:underline;
+         
+         }
+         h3{
+             color:rgb(114, 54, 235);
+             font-size: 18px;
+             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         text-decoration:underline;
+         font-weight:bold;
+         margin-left: 15px;
+         
+         }
+         h2{
+            
+            display: none;
+    
+         }
+         
+         .container{
+             text-align:left;
+            margin-left: 30px;
+         }
+         .t1{
+             display:block;
+             margin-top:5%;
+             
+         }
+         
+         .t2{
+             display: block;
+             margin-top: 2%;
+           
+         }
+         .t3{
+             display: block;
+             margin-top: 2%;
+            
+         }
+         
+         .pp,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo{
+            font-size:medium;
+            margin-left:-2px;
+            cursor: pointer;
+            font-weight: bolder;
+            font-size: small;
+            margin-top: -5px;
+            
+            text-decoration: underline;
+           
+         
+         }
+          .z1,.z2,.z3,.z4,.z5,.z6,.z7,.z8,.z9,.z10,.z11,.z12,.z13,.z14,.z15{
+             margin-top: 5px;
+             
+          }
+         
+         .t1,.t2,.t3{
+             border: 4px solid purple;
+             width: 85vw;
+             height:160vh ;
+             border-radius: 25px;
+             align-items: center;
+           margin-left: -20px !important;
+         }
+        h4{
+           display: none;
+        }
+        }
+    
+ @media only screen and (max-width:1024px) {
+    
+    h1{
+    text-align: center;
+    color:rgb(120, 120, 230);
+    font-size: 60px;
+   margin-left: -20%;
+
+}
+h2{
+    margin-top: 5%;
+}
+
+
+.container{
+    text-align:left;
+   margin-left: 50px;
+}
+.main{
+    width: 100%;
+}
+.t1{
+    display: flex;
+    margin-top: 5%;
+    gap: 20px;
+   
+}
+
+.t2{
+    display: flex;
+    margin-top: 5%;
+    gap: 20px;
+}
+.t3{
+    display: flex;
+    margin-top: 5%;
+    gap: 20px;
+   
+}
+
+.pp,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo{
+   font-size:small !important;
+   margin-left:-25px;
+   cursor: pointer;
+   font-weight: bolder;
+   
+   text-decoration: underline;
+  
+
+}
+ .z1,.z2,.z3,.z4,.z5,.z6,.z7,.z8,.z9,.z10,.z11,.z12,.z13,.z14,.z15{
+    margin-top: 10px;
+ }
+ #a,#b,#c,#d,#e,#k,#l,#m,#n,#o{
+    margin-left: -20px;
+ }
+ #f,#g,#h,#i,#j{
+    margin-left: -25px !important;
+ }
+
+}
+
+@media (max-width:768px) {
+
+    body{
+        
+         background-repeat:repeat;
+     background-size:contain;}
+     
+
+     h1{
+         text-align:center;
+         color:rgb(88, 88, 245);
+         font-size: 25px;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     text-decoration:underline;
+     
+     }
+    
+     h3{
+         color:rgb(114, 54, 235);
+         font-size: 18px;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     text-decoration:underline;
+     font-weight:bold;
+     margin-left: 15px;
+     text-align: center;
+     
+     }
+     h2{
+        margin-left: 100px;
+     }
+     
+     
+     .container{
+         text-align:left;
+        margin-left: 30px;
+     }
+     .t1{
+         display:block;
+         margin-top:10%;
+         margin-left: 15%;
+         
+     }
+     
+     .t2{
+         display: block;
+         margin-top: 2%;
+         margin-left: 15%;
+       
+     }
+     .t3{
+         display: block;
+         margin-top: 2%;
+         margin-left: 15%;
+        
+     }
+     
+     .pp,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo{
+        font-size:medium;
+        margin-left: 10px;
+        cursor: pointer;
+        font-weight: bolder;
+        font-size: small;
+        margin-top: -5px;
+        
+        text-decoration: underline;
+       
+     
+     }
+      .z1,.z2,.z3,.z4,.z5,.z6,.z7,.z8,.z9,.z10,.z11,.z12,.z13,.z14,.z15{
+         margin-top: 5px;
+         
+      }
+     
+     .t1,.t2,.t3{
+         border: 4px solid purple;
+         width: 60vw;
+         height:130vh ;
+         border-radius: 25px;
+         align-items: center;
+     }
+    
+    } 
+ @media only screen and (max-width:1440px) {
+    .t1,.t2,.t3{
+        border: 4px solid purple;
+        width: 90vw !important;
+        height:30vh ;
+        border-radius: 25px;
+        align-items: center;
+    }
+   
+    h2{
+        margin-top: 30px;
+    }
+    h4{
+        margin-right:90px !important;
+    }
+} 
+
+
+@media only screen and (max-width:768px) {
+
+
+
+    h1{
+       margin-left: -15px;
+        font-size: 40px;
+       
+    
+    }
+    h2{
+        margin-left: 100px;
+    }
+    h3{
+        color:rgb(121, 70, 241);
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration:underline;
+    font-weight:bold;
+    margin-left: 15px;
+    
+    }
+    h4{
+        text-align: right;
+        margin-right: 160px;
+        font-size: 40px;
+        font-weight: bolder;
+        color: rgb(67, 7, 134);
+       
+    }
+    
+    .t1,.t2,.t3{
+        border: 4px solid purple;
+        width: 80vw;
+        height:160vh ;
+        border-radius: 25px;
+        align-items: center;
+        margin-left: 10px;
+    }
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#a,#b,#c,#d,#e,#k,#l,#m,#n,#o,#f,#g,#h,#i,#j{
+        margin-left: 10px !important;
+}
+}
